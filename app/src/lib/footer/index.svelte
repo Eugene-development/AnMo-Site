@@ -7,27 +7,27 @@
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
             <div class="px-5 py-2">
-                <a href="/" class="text-base text-gray-50 hover:text-gray-200"> Главная </a>
+                <a href="/" class="text-base text-gray-50 hover:text-red-700"> Главная </a>
             </div>
 
             <div class="px-5 py-2">
-                <a href="/girls" class="text-base text-gray-50 hover:text-gray-200"> Девушки </a>
+                <a href="/girls" class="text-base text-gray-50 hover:text-red-700"> Девушки </a>
             </div>
 
             <div class="px-5 py-2">
-                <a href="/programs" class="text-base text-gray-50 hover:text-gray-200"> Программы </a>
+                <a href="/programs" class="text-base text-gray-50 hover:text-red-700"> Программы </a>
             </div>
 
             <div class="px-5 py-2">
-                <a href="/salon" class="text-base text-gray-50 hover:text-gray-200"> Салон </a>
+                <a href="/salon" class="text-base text-gray-50 hover:text-red-700"> Салон </a>
             </div>
 
             <div class="px-5 py-2">
-                <a href="/blog" class="text-base text-gray-50 hover:text-gray-200"> Блог </a>
+                <a href="/blog" class="text-base text-gray-50 hover:text-red-700"> Блог </a>
             </div>
 
             <div class="px-5 py-2">
-                <a href="/contacts" class="text-base text-gray-50 hover:text-gray-200"> Контакты </a>
+                <a href="/contacts" class="text-base text-gray-50 hover:text-red-700"> Контакты </a>
             </div>
         </nav>
         <!--        <div class="mt-8 flex justify-center space-x-6">-->
@@ -66,6 +66,6 @@
         <!--                </svg>-->
         <!--            </a>-->
         <!--        </div>-->
-        <p class="mt-8 text-center text-base text-gray-400">&copy; 2017-{year} Массажный салон "Ат-Мо". Классический и эротический массаж.</p>
+        <p class="mt-8 text-center text-base text-gray-200">&copy; 2017-{year} Массажный салон "Ат-Мо". Классический и эротический массаж у ВДНХ.</p>
     </div>
 </footer>
