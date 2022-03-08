@@ -1,118 +1,152 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-black pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-    <div class="absolute inset-0">
-        <div class="bg-black h-1/3 sm:h-2/3"></div>
-    </div>
-    <div class="relative max-w-7xl mx-auto">
-        <div class="text-center">
-            <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Программы</h2>
-            <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+<div class="bg-gray-900">
+    <div class="pt-12 sm:pt-16 lg:pt-24">
+        <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
+                <h2 class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Pricing</h2>
+                <p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">The right price for you, whoever you are</p>
+                <p class="text-xl text-gray-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi unde repudiandae natus.</p>
+            </div>
         </div>
-        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                </div>
-                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                    <div class="flex-1">
-                        <p class="text-sm font-medium text-indigo-600">
-                            <a href="#" class="hover:underline"> Article </a>
-                        </p>
-                        <a href="#" class="block mt-2">
-                            <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-                            <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>
-                        </a>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div class="flex-shrink-0">
-                            <a href="#">
-                                <span class="sr-only">Roel Aufderehar</span>
-                                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                            </a>
+    </div>
+    <div class="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+        <div class="relative">
+            <div class="absolute inset-0 h-3/4 bg-gray-900"></div>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                            <div>
+                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600" id="tier-standard">Standard</h3>
+                            </div>
+                            <div class="mt-4 flex items-baseline text-6xl font-extrabold">
+                                $49
+                                <span class="ml-1 text-2xl font-medium text-gray-500"> /mo </span>
+                            </div>
+                            <p class="mt-5 text-lg text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
-                        <div class="ml-3">
-                            <p class="text-sm font-medium text-gray-900">
-                                <a href="#" class="hover:underline"> Roel Aufderehar </a>
-                            </p>
-                            <div class="flex space-x-1 text-sm text-gray-500">
-                                <time datetime="2020-03-16"> Mar 16, 2020 </time>
-                                <span aria-hidden="true"> &middot; </span>
-                                <span> 6 min read </span>
+                        <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                            <ul role="list" class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Pariatur quod similique</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Sapiente libero doloribus modi nostrum</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Vel ipsa esse repudiandae excepturi</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Itaque cupiditate adipisci quibusdam</p>
+                                </li>
+                            </ul>
+                            <div class="rounded-md shadow">
+                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900" aria-describedby="tier-standard"> Get started </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                            <div>
+                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600" id="tier-standard">Enterprise</h3>
+                            </div>
+                            <div class="mt-4 flex items-baseline text-6xl font-extrabold">
+                                $79
+                                <span class="ml-1 text-2xl font-medium text-gray-500"> /mo </span>
+                            </div>
+                            <p class="mt-5 text-lg text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                            <ul role="list" class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Pariatur quod similique</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Sapiente libero doloribus modi nostrum</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Vel ipsa esse repudiandae excepturi</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-base text-gray-700">Itaque cupiditate adipisci quibusdam</p>
+                                </li>
+                            </ul>
+                            <div class="rounded-md shadow">
+                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900" aria-describedby="tier-standard"> Get started </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                </div>
-                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+        </div>
+        <div class="mt-4 relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-5">
+            <div class="max-w-md mx-auto lg:max-w-5xl">
+                <div class="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
                     <div class="flex-1">
-                        <p class="text-sm font-medium text-indigo-600">
-                            <a href="#" class="hover:underline"> Video </a>
-                        </p>
-                        <a href="#" class="block mt-2">
-                            <p class="text-xl font-semibold text-gray-900">How to use search engine optimization to drive sales</p>
-                            <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
-                        </a>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div class="flex-shrink-0">
-                            <a href="#">
-                                <span class="sr-only">Brenna Goyette</span>
-                                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                            </a>
+                        <div>
+                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-white text-gray-800">Важно</h3>
                         </div>
-                        <div class="ml-3">
-                            <p class="text-sm font-medium text-gray-900">
-                                <a href="#" class="hover:underline"> Brenna Goyette </a>
-                            </p>
-                            <div class="flex space-x-1 text-sm text-gray-500">
-                                <time datetime="2020-03-10"> Mar 10, 2020 </time>
-                                <span aria-hidden="true"> &middot; </span>
-                                <span> 4 min read </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                </div>
-                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                    <div class="flex-1">
-                        <p class="text-sm font-medium text-indigo-600">
-                            <a href="#" class="hover:underline"> Case Study </a>
-                        </p>
-                        <a href="#" class="block mt-2">
-                            <p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-                            <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
-                        </a>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div class="flex-shrink-0">
-                            <a href="#">
-                                <span class="sr-only">Daniela Metz</span>
-                                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                            </a>
-                        </div>
-                        <div class="ml-3">
-                            <p class="text-sm font-medium text-gray-900">
-                                <a href="#" class="hover:underline"> Daniela Metz </a>
-                            </p>
-                            <div class="flex space-x-1 text-sm text-gray-500">
-                                <time datetime="2020-02-12"> Feb 12, 2020 </time>
-                                <span aria-hidden="true"> &middot; </span>
-                                <span> 11 min read </span>
-                            </div>
-                        </div>
+                        <div class="mt-4 text-lg text-gray-600">Салон не оказывает интимные услуги! При попытке нарушения данного правила программа останавливается без возврата оплаченного сеанса.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
