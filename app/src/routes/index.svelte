@@ -2,7 +2,7 @@
 	<title>Эротический массаж в Москве</title>
 </svelte:head>
 
-<div class="">
+<div class="bg-gray-100">
 	<div class="relative max-w-fool">
 		<div class="relative py-48 px-8 overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 			<div class="absolute inset-0  mix-blend-multiply">
@@ -38,7 +38,7 @@
 					<h2 class="text-xl font-bold text-white">Наши девушки</h2>
 					<p class="mt-1 text-sm text-gray-300">Каждая мастерица владеет уникальным навыком, который вы узнаете только на сеансе </p>
 				</div>
-				<a href="/girls" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Посмотреть всех</a>
+				<a href="/girls" class="mt-6 flex-shrink-0 flex bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Посмотреть всех</a>
 			</div>
 		</div>
 	</div>
