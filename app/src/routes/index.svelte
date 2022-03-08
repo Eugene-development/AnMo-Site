@@ -30,7 +30,7 @@
 		<section aria-labelledby="details-heading">
 			<div class="flex flex-col items-center text-center">
 				<h2 id="details-heading" class="text-3xl font-extrabold tracking-tight text-gray-50 sm:text-4xl">Наши акции</h2>
-				<p class="mt-3 max-w-3xl text-lg text-gray-50">Our patented padded snack sleeve construction protects your favorite treats from getting smooshed during all-day adventures, long shifts at work, and tough travel schedules.</p>
+				<p class="mt-3 max-w-3xl text-lg text-gray-50">Воспользуйтесь нашим специальным предложением. Ведь бонусы и подарки будут для вас приятным дополнением!</p>
 			</div>
 
 			<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
