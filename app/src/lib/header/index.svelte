@@ -44,7 +44,7 @@
                     </div>
                     <nav class="hidden space-x-8 md:flex md:mx-6 ">
                         {#each menu as { value, link }, i}
-                            <a class="text-sm font-medium hover:text-gray-300 p-2 text-gray-50"
+                            <a class="text-base font-medium hover:text-gray-300 p-2 text-red-700"
                                href="/{link}">{value}
                             </a>
                             <!--                            <a class="text-sm font-medium hover:text-gray-300 p-2 {'/'+link === window.location.pathname ? 'text-red-500' : 'text-cyan-600'}"-->
