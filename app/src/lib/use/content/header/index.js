@@ -15,10 +15,10 @@ const menu = [
         value: 'Салон',
         link: 'salon'
     },
-    {
-        value: 'Блог',
-        link: 'blog'
-    },
+    // {
+    //     value: 'Блог',
+    //     link: 'blog'
+    // },
     {
         value: 'Контакты',
         link: 'contacts'

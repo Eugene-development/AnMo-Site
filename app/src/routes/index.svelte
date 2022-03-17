@@ -36,13 +36,13 @@
 			<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 				<div>
 					<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-						<img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="w-full h-full object-center object-cover">
+						<img src="https://s3-us-west-2.amazonaws.com/selroclientsprod1/6601/17661_3cb0f91a-b74f-44fb-9c6f-8b74aae68cba0.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="w-full h-96 object-center object-cover">
 					</div>
 					<p class="mt-8 text-base text-gray-200">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
 				</div>
 				<div>
 					<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-						<img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-02.jpg" alt="Front zipper pouch with included key ring." class="w-full h-full object-center object-cover">
+						<img src="https://avatars.mds.yandex.net/get-zen_doc/1855206/pub_5fbfa876b1f92632ba9f9417_5fc01175b1f92632ba572f99/scale_1200" alt="Front zipper pouch with included key ring." class="w-full h-96 object-center object-cover">
 					</div>
 					<p class="mt-8 text-base text-gray-200">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
 				</div>
@@ -56,7 +56,8 @@
 	<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
 		<div class="relative rounded-lg overflow-hidden lg:h-96">
 			<div class="absolute inset-0">
-				<img src="https://tailwindui.com/img/ecommerce-images/category-page-01-featured-collection.jpg" alt="" class="w-full h-full object-center object-cover">
+				<img src="https://jasmine.ua/upload/editor/tg_image_3921693596_2.png" alt="" class="w-full h-full object-center object-cover">
+<!--				<img src="https://c.wallhere.com/photos/1a/97/women_Rosie_Jones_Emma_Glover_stockings_high_heels_India_Reynolds_model_lingerie-333383.jpg!d" alt="" class="w-full h-full object-center object-cover">-->
 			</div>
 			<div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
 			<div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
