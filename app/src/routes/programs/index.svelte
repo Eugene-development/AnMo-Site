@@ -1,14 +1,18 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-black">
+
+
     <div class="pt-12 sm:pt-16 lg:pt-24">
         <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-                <h2 class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Цены на наши программы</h2>
-                <p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">Цены на наши программы</p>
+<!--                <h2 class="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Цены на наши программы</h2>-->
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">Цены на наши программы</h2>
                 <p class="text-xl text-gray-300">Цены на наши программы Цены на наши программы Цены на наши программы Цены на наши программы</p>
             </div>
         </div>
     </div>
+
+
     <div class="mt-8 pb-12 bg-black sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
         <div class="relative">
             <div class="absolute inset-0 h-3/4 bg-black"></div>
@@ -68,7 +72,7 @@
                                 </li>
                             </ul>
                             <div class="rounded-md shadow">
-                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900" aria-describedby="tier-standard"> Get started </a>
+                                <span class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-900 hover:bg-gray-900" aria-describedby="tier-standard"> Дополнения </span>
                             </div>
                         </div>
                     </div>
@@ -81,7 +85,7 @@
                 <div class="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
                     <div class="flex-1">
                         <div>
-                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-black text-red-700">Важно</h3>
+                            <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-black text-red-500">Важно</h3>
                         </div>
                         <div class="mt-4 text-lg text-gray-600">Салон не оказывает интимные услуги! При попытке нарушения данного правила программа останавливается без возврата оплаченного сеанса. Надеемся на понимание.</div>
                     </div>
