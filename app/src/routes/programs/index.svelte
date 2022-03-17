@@ -20,8 +20,8 @@
                                 <h3 class="inline-flex px-4 py-1 rounded-full text-xl font-semibold tracking-wide uppercase bg-red-200 text-red-700" id="tier-standard">Релакс</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-6xl font-extrabold">
-                                $49
-                                <span class="ml-1 text-2xl font-medium text-gray-500"> /mo </span>
+                                4900
+                                <span class="ml-1 text-2xl font-medium text-gray-500"> ₽ </span>
                             </div>
                             <p class="mt-5 text-lg text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>

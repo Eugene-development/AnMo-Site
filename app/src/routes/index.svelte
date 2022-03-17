@@ -2,7 +2,7 @@
 	<title>Эротический массаж в Москве</title>
 </svelte:head>
 
-<div class="bg-gray-100">
+<div class="">
 	<div class="relative max-w-fool">
 		<div class="relative py-48 px-8 overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 			<div class="absolute inset-0  mix-blend-multiply">

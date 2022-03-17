@@ -1,34 +1,22 @@
 <script>
     const now = new Date();
     const year = now.getFullYear()
+
+    import {useHeader} from "$lib/use/content/header/index.js";
+    const {menu, phone} = useHeader;
+
 </script>
 
 <footer class="bg-black">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+            {#each menu as { value, link }, i}
             <div class="px-5 py-2">
-                <a href="/" class="text-base text-gray-50 hover:text-red-700"> Главная </a>
+                <a href="/{link}" class="text-base text-gray-50 hover:text-red-700"> {value} </a>
             </div>
-
-            <div class="px-5 py-2">
-                <a href="/girls" class="text-base text-gray-50 hover:text-red-700"> Девушки </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/programs" class="text-base text-gray-50 hover:text-red-700"> Программы </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/salon" class="text-base text-gray-50 hover:text-red-700"> Салон </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/blog" class="text-base text-gray-50 hover:text-red-700"> Блог </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/contacts" class="text-base text-gray-50 hover:text-red-700"> Контакты </a>
-            </div>
+            {:else}
+                <p>Нет данных!</p>
+            {/each}
         </nav>
         <!--        <div class="mt-8 flex justify-center space-x-6">-->
         <!--            <a href="#" class="text-gray-400 hover:text-gray-500">-->
