@@ -1,19 +1,15 @@
 const menu = [
     {
-        value: 'Главная',
-        link: ''
-    },
-    {
         value: 'Девушки',
-        link: 'girls'
+        link: 'devushki'
     },
     {
         value: 'Программы',
-        link: 'programs'
+        link: 'programmy'
     },
     {
         value: 'Салон',
-        link: 'salon'
+        link: 'interer'
     },
     // {
     //     value: 'Блог',
@@ -21,7 +17,7 @@ const menu = [
     // },
     {
         value: 'Контакты',
-        link: 'contacts'
+        link: 'kontakty'
     },
 ]
 

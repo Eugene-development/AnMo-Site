@@ -25,7 +25,7 @@
                         <a href="/">
                             <span class="sr-only">Workflow</span>
                             <img class="h-6 w-auto sm:h-10"
-                                 src="/Logo/logo1.svg" alt="">
+                                 src="/Logo/logo.png" alt="">
                         </a>
                         <div class="-mr-2 flex items-center md:hidden">
 
@@ -43,17 +43,9 @@
                         </div>
                     </div>
                     <nav class="hidden space-x-8 md:flex md:mx-6 ">
+                            <a class="text-base font-medium hover:text-red-700 p-2 text-gray-50" href="/"> Главная </a>
                         {#each menu as { value, link }, i}
-                            <a class="text-base font-medium hover:text-red-700 p-2 text-gray-50"
-                               href="/{link}">{value}
-                            </a>
-                            <!--                            <a class="text-sm font-medium hover:text-gray-300 p-2 {'/'+link === window.location.pathname ? 'text-red-500' : 'text-cyan-600'}"-->
-                            <!--                               href="/{link}">{value}-->
-                            <!--                            </a>-->
-                            <!--                            <a class="text-sm font-medium text-white hover:text-gray-300 p-2"-->
-                            <!--                               class:text-xl="{current === '/'+link}" on:click="{() => current = window.location.pathname}"-->
-                            <!--                               href="/{link}">{value}-->
-                            <!--                            </a>-->
+                            <a class="text-base font-medium hover:text-red-700 p-2 text-gray-50" href="/ru/{link}"> {value} </a>
                         {:else}
                             <p>Нет данных!</p>
                         {/each}

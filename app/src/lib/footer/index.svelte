@@ -10,9 +10,13 @@
 <footer class="bg-black">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+            <div class="px-5 py-2">
+                <a href="/" class="text-base text-gray-50 hover:text-red-700"> Главная </a>
+            </div>
+
             {#each menu as { value, link }, i}
             <div class="px-5 py-2">
-                <a href="/{link}" class="text-base text-gray-50 hover:text-red-700"> {value} </a>
+                <a href="/ru/{link}" class="text-base text-gray-50 hover:text-red-700"> {value} </a>
             </div>
             {:else}
                 <p>Нет данных!</p>
@@ -54,6 +58,6 @@
         <!--                </svg>-->
         <!--            </a>-->
         <!--        </div>-->
-        <p class="mt-8 text-center text-base text-gray-200">&copy; 2017-{year} Массажный салон "Ат-Мо". Классический и эротический массаж у ВДНХ.</p>
+        <p class="mt-8 text-center text-base text-gray-200">&copy; 2017-{year} Массажный салон "Ан-Мо". Классический и эротический массаж у ВДНХ.</p>
     </div>
 </footer>

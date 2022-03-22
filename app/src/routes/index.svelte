@@ -5,8 +5,8 @@
 <div class="">
 	<div class="relative max-w-fool">
 		<div class="relative py-48 px-8 overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-			<div class="absolute inset-0  mix-blend-multiply">
-				<img src="https://img3.badfon.ru/original/1920x1200/c/74/devushka-blondinka-v-krasnom.jpg" alt="" class="w-full h-full object-cover">
+			<div class="absolute inset-0 bg-black mix-blend-multiply">
+				<img src="img/devushka-blondinka-v-krasnom.png" alt="" class="w-full h-full object-cover">
 			</div>
 			<div class="relative lg:col-span-1 text-gray-50">
 				<h1 class="text-7xl font-bold ">Эротический массаж</h1>
@@ -15,7 +15,7 @@
 					<p class="text-xl font-medium sm:text-2xl">Ты устал от ежедневных забот и ищешь способ отвлечься и отдохнуть? Приходи к нам за блаженным релаксом для души и тела!</p>
 					<footer class="mt-6">
 						<p class="flex flex-col font-medium">
-							<span>Администратор Ангелина &#128105;</span>
+							<span>Массажный салон "Ан-Мо" &#128151;</span>
 						</p>
 					</footer>
 				</blockquote>
@@ -29,7 +29,7 @@
 		<!-- Details section -->
 		<section aria-labelledby="details-heading">
 			<div class="flex flex-col items-center text-center">
-				<h2 id="details-heading" class="text-3xl font-extrabold tracking-tight text-gray-50 sm:text-4xl">Наши акции</h2>
+				<h2 id="details-heading" class="text-3xl font-extrabold tracking-tight text-gray-50 sm:text-4xl">Эротический массаж мужчинам и девушкам</h2>
 				<p class="mt-3 max-w-3xl text-lg text-gray-50">Воспользуйтесь нашим специальным предложением. Ведь бонусы и подарки будут для вас приятным дополнением!</p>
 			</div>
 
@@ -66,7 +66,7 @@
 					<h2 class="text-xl font-bold text-white">Наши девушки</h2>
 					<p class="mt-1 text-sm text-gray-300">Каждая мастерица владеет уникальным навыком, который вы узнаете только на сеансе </p>
 				</div>
-				<a href="/girls" class="mt-6 flex-shrink-0 flex bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Посмотреть всех</a>
+				<a href="/ru/devushki" class="mt-6 flex-shrink-0 flex bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Посмотреть всех</a>
 			</div>
 		</div>
 	</div>
