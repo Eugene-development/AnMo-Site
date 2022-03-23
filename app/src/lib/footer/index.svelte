@@ -58,6 +58,6 @@
         <!--                </svg>-->
         <!--            </a>-->
         <!--        </div>-->
-        <p class="mt-8 text-center text-base text-gray-200">&copy; 2017-{year} Массажный салон "Ан-Мо". Классический и эротический массаж у ВДНХ.</p>
+        <p class="mt-8 text-center text-base text-gray-200">&copy; 2017-{year} Массажный салон "Ан-Мо". Классический и эротический массаж в Москве у ВДНХ.</p>
     </div>
 </footer>

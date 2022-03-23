@@ -6,7 +6,7 @@
 	<div class="relative max-w-fool">
 		<div class="relative py-48 px-8 overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 			<div class="absolute inset-0 bg-black mix-blend-multiply">
-				<img src="img/devushka-blondinka-v-krasnom.png" alt="" class="w-full h-full object-cover">
+				<img src="/img/devushka-blondinka-v-krasnom.png" alt="" class="w-full h-full object-cover">
 			</div>
 			<div class="relative lg:col-span-1 text-gray-50">
 				<h1 class="text-7xl font-bold ">Эротический массаж</h1>

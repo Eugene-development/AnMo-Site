@@ -6,7 +6,7 @@
 
 <div class="bg-black">
     <div aria-hidden="true" class="relative">
-        <img src="https://tailwindui.com/img/ecommerce-images/product-feature-02-full-width.jpg" alt="" class="w-full h-96 object-center object-cover">
+        <img src="https://wikicity.kz/fotos/Company_32092_kpPcpRGtM7hTveIN72P1XiJM.png" alt="интерьер" class="w-full h-96 object-center object-cover">
         <div class="absolute inset-0 bg-gradient-to-t from-black"></div>
     </div>
 
