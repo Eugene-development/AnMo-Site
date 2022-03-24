@@ -1,57 +1,57 @@
 const girls = [
     {
         id: 1,
-        name: 'Маша',
+        name: 'Диана',
         old: 23,
         growth: 170,
         size: 3,
-        message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        message: 'diana.jpg',
+        img: 'diana.jpg'
     },
     {
         id: 1,
-        name: 'Маша',
+        name: 'Лейла',
         old: 23,
         growth: 170,
         size: 3,
         message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        img: 'leila.jpg'
     },
     {
         id: 1,
-        name: 'Маша',
+        name: 'Марина',
         old: 23,
         growth: 170,
         size: 3,
         message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        img: 'marina.jpg'
     },
     {
         id: 1,
-        name: 'Маша',
+        name: 'Настя',
         old: 23,
         growth: 170,
         size: 3,
         message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        img: 'nasta.jpg'
     },
     {
         id: 1,
-        name: 'Маша',
+        name: 'Вика',
         old: 23,
         growth: 170,
         size: 3,
         message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        img: 'vika.jpg'
     },
     {
         id: 1,
-        name: 'Маша',
+        name: 'Кира',
         old: 23,
         growth: 170,
         size: 3,
         message: 'text',
-        img: 'https://yobte.ru/uploads/posts/2019-11/devushki-v-krasnom-bele-112-foto-82.jpg'
+        img: 'kira.jpg'
     },
 ]
 

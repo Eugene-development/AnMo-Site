@@ -22,7 +22,7 @@
                 {#each girls as {id, name, old, growth, size, message, img}}
                 <li class="py-10 px-6 bg-red-900 text-center rounded-lg xl:px-10 xl:text-left">
                     <div class="space-y-6 xl:space-y-10">
-                        <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 object-contain" src="{img}" alt="{name}">
+                        <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 object-contain" src="/girls/{img}" alt="{name}">
                         <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                             <div class="font-medium text-base leading-6 space-y-1 text-gray-50">
                                 <h3 class="text-4xl">{name}</h3>
